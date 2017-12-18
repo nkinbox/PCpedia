@@ -1,0 +1,19 @@
+#profile-img {
+  width: 136px;
+  height: 188px;
+  box-shadow: 2px 2px 7px #222;
+  margin: 10px 20px 10px 10px;
+}
+.align-center {
+  justify-content: center;
+}
+#intro{
+  width: 50%
+}
+#story {
+  width: calc(50% + 166px);
+  margin: auto;
+}
+#intro>h2 {
+  margin: 0
+}

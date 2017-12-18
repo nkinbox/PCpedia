@@ -1,0 +1,61 @@
+main {
+  padding: 10px 25px;
+}
+#options {
+  width: 100%;
+  font-size: 120%;
+  padding: 12px;
+}
+.day {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+.hor-line {
+  background: #253B80;
+  height: 1px;
+  flex-grow: 1;
+}
+.datetime {
+  padding: 8px;
+  border: 1px solid #253B80;
+  background: #fff;
+}
+.time {
+  border-width: 1px 1px 1px 0;
+  border-style: solid;
+  border-radius: 0 3px 3px 0;
+  border-color: #253B80;
+  padding: 2px 4px 2px 4px;
+}
+.date {
+  padding-bottom: 4px;
+}
+.ddt {
+  width: 300px;
+  margin: 8px;
+}
+#display-time-interval {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+input[type="radio"]:checked + label {
+  background: #d6d6d6;
+}
+.error {
+  text-align: center;
+}
+.help-button {
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-size: 120%;
+  margin: 40px 0;
+}
+.inline-block {
+  display: inline-block;
+}
+.rp {
+  padding: 4px;
+}

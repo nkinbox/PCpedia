@@ -1,0 +1,46 @@
+#block1 {
+  display: flex;
+  flex-direction: column-reverse;
+  height: calc(100vh - 80px);
+  background: url("../img/world-map.svg") center/contain no-repeat;
+}
+h1,.read-more {
+  width: 50vw;
+  margin-left: 10vw;
+  margin-right: 40vw;
+}
+h1 {
+  text-align: center;
+  font-size: 5vh;
+}
+.read-more {
+  color: #253B80;
+  padding: 10px;
+  justify-content: flex-end;
+}
+.mark-red {
+  color: #b42f2f;
+}
+#block2,#block3 {
+  text-align: center;
+}
+#block2,#block4-heading {
+  color: #fff;
+}
+#block4-heading {
+  padding: 15px 10px;
+}
+#subscribe-box {
+  border: 1px solid #253B80;
+  width: 500px;
+  margin: auto;
+  padding: 8px;
+  background: #E7DDC2;
+}
+.video-more {
+  display: inline-flex;
+  align-items: center;
+  background: #ddd;
+  padding: 5px;
+  border: 1px solid #555;
+}
